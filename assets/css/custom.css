@@ -2,17 +2,17 @@
 body {
   font-family: 'Calibri', sans-serif !important; /* Calibri com a font principal */
   font-size: 14px !important; /* Tamany de lletra per al text principal */
-  color: #000000 !important; /* Color negre per al text */
+  color: #e0e0e0 !important; /* Text gris clar per al fons fosc */
+  background-color: #2b2b2b !important; /* Fons fosc estil Eclipse */
   line-height: 1.8 !important; /* Alçada de línia per millor llegibilitat */
   margin: 0 !important; /* Elimina marges extra */
-  background-color: #f0f4f8 !important; /* Blau clar suau de fons */
 }
 
-/* Estils per al títol nivell 1 amb fons blau i centrat */
+/* Estils per al títol nivell 1 amb fons fosc i centrat */
 h1 {
   font-family: 'Calibri', sans-serif !important;
-  color: #0d1b2a !important; /* Blau fosc per al títol */
-  background-color: #dbe2ef !important; /* Blau clar per al fons */
+  color: #000000 !important; /* Títol negre */
+  background-color: #616161 !important; /* Fons gris fosc per al títol */
   padding: 10px !important;
   margin-bottom: 20px !important;
   font-weight: bold !important;
@@ -21,11 +21,11 @@ h1 {
   text-align: center !important; /* Centra el text */
 }
 
-/* Estils per al títol nivell 2 amb fons blau */
+/* Estils per al títol nivell 2 amb fons fosc */
 h2 {
   font-family: 'Calibri', sans-serif !important;
-  color: #0d1b2a !important; /* Blau fosc per als títols */
-  background-color: #dbe2ef !important; /* Blau clar per al fons dels títols */
+  color: #000000 !important; /* Títol negre */
+  background-color: #616161 !important; /* Fons gris fosc per al títol */
   padding: 10px !important;
   margin-bottom: 20px !important;
   font-weight: bold !important;
@@ -36,7 +36,7 @@ h2 {
 /* Estils per als títols nivells 3 a 6 sense fons ni ombra */
 h3, h4, h5, h6 {
   font-family: 'Calibri', sans-serif !important;
-  color: #0d1b2a !important; /* Blau fosc per als títols */
+  color: #000000 !important; /* Títol negre */
   padding: 10px !important;
   margin-bottom: 20px !important;
   font-weight: bold !important;
@@ -50,12 +50,12 @@ h3, h4, h5, h6 {
   margin-left: 0 !important; /* Elimina marge esquerre */
   padding: 20px !important; /* Afegir una mica de padding per a l'espaiat */
   max-width: 100% !important; /* Assegura que el contingut ocupi tot l'espai disponible */
-  background-color: #f0f4f8 !important; /* Blau clar suau de fons */
+  background-color: #2b2b2b !important; /* Fons fosc estil Eclipse */
 }
 
 /* Estil per a la barra lateral (TOC) */
 .sidebar {
-  background-color: #dbe2ef !important; /* Fons blau clar per al menú lateral */
+  background-color: #3c3f41 !important; /* Fons gris fosc estil Eclipse per al menú lateral */
   padding: 10px !important;
   width: 170px !important; /* Amplada de la barra lateral */
 }
@@ -63,17 +63,17 @@ h3, h4, h5, h6 {
 /* Estil per als enllaços de la barra lateral */
 .nav-list a {
   font-family: 'Calibri', sans-serif !important;
-  color: #0d1b2a !important; /* Blau fosc per als enllaços de la barra lateral */
+  color: #a9b7c6 !important; /* Color blau grisos per als enllaços de la barra lateral */
 }
 
 .nav-list a:hover {
-  color: #1b263b !important; /* Blau fosc més intens en hover */
+  color: #ffffff !important; /* Color blanc en hover */
 }
 
 /* Estil per als títols de la barra lateral */
 .navbar-brand {
   font-size: 16px !important; /* Ajusta la mida del text del títol "Just the Docs Template" */
-  color: #0d1b2a !important; /* Blau fosc per al text */
+  color: #a9b7c6 !important; /* Color blau grisos per al text */
 }
 
 /* Estil per a blocs de codi o text preformat */
@@ -81,8 +81,8 @@ pre, code {
   font-family: 'Consolas', monospace !important; /* Consolas per al codi */
   font-size: 12px !important; /* Tamany 12px per al codi */
   font-weight: bold !important; /* Negreta per al codi */
-  background-color: #e0e1e3 !important; /* Fons gris clar */
-  color: #000000 !important; /* Color negre per al text */
+  background-color: #313335 !important; /* Fons fosc estil Eclipse per al codi */
+  color: #dcdcdc !important; /* Color gris clar per al codi */
   padding: 15px !important; /* Espai dins dels blocs de codi */
   line-height: 1.6 !important; /* Alçada de línia per evitar solapaments */
   border: none !important; /* Elimina les vores */
@@ -95,7 +95,7 @@ pre, code {
 
 /* Ajustos visuals per a les etiquetes de codi dins de blocs de text */
 code {
-  background-color: #e0e1e3 !important; /* Fons gris clar */
+  background-color: #313335 !important; /* Fons fosc estil Eclipse per a etiquetes de codi */
   padding: 3px 5px !important; /* Espai dins de les etiquetes de codi */
   border-radius: 3px !important; /* Cants arrodonits */
   font-size: 13px !important; /* Mida lleugerament més gran per a millor llegibilitat */
