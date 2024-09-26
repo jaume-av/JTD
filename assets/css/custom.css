@@ -76,13 +76,13 @@ h3, h4, h5, h6 {
   color: #1a355c !important; /* Blau fosc per al text */
 }
 
-/* Estil per a blocs de codi o text preformat amb estil Eclipse */
+/* Estil per a blocs de codi o text preformat amb fons clar */
 pre, code {
   font-family: 'Consolas', monospace !important; /* Consolas per al codi */
   font-size: 12px !important; /* Tamany 12px per al codi */
   font-weight: bold !important; /* Negreta per al codi */
-  background-color: #313335 !important; /* Fons fosc estil Eclipse per al codi */
-  color: #dcdcdc !important; /* Color gris clar per al codi */
+  background-color: #f5f9fc !important; /* Fons blau clar com a la imatge */
+  color: #000000 !important; /* Color negre per al text del codi */
   padding: 15px !important; /* Espai dins dels blocs de codi */
   line-height: 1.6 !important; /* Alçada de línia per evitar solapaments */
   border: none !important; /* Elimina les vores */
@@ -93,23 +93,23 @@ pre, code {
   box-shadow: none !important; /* Elimina qualsevol ombra */
 }
 
-/* Colors per a les paraules reservades del codi (estil Eclipse) */
+/* Colors per a les paraules reservades del codi (similars a Eclipse) */
 code.keyword {
-  color: #cc7832 !important; /* Paraules reservades en taronja */
+  color: #7f0055 !important; /* Paraules reservades en color fúcsia */
 }
 code.string {
-  color: #6a8759 !important; /* Strings en verd */
+  color: #0000ff !important; /* Strings en blau */
 }
 code.comment {
-  color: #808080 !important; /* Comentaris en gris */
+  color: #3f7f5f !important; /* Comentaris en verd */
 }
 code.number {
-  color: #6897bb !important; /* Nombres en blau clar */
+  color: #bf00bf !important; /* Nombres en magenta */
 }
 
 /* Ajustos visuals per a les etiquetes de codi dins de blocs de text */
 code {
-  background-color: #313335 !important; /* Fons fosc estil Eclipse per a etiquetes de codi */
+  background-color: #f5f9fc !important; /* Fons blau clar com a la imatge */
   padding: 3px 5px !important; /* Espai dins de les etiquetes de codi */
   border-radius: 3px !important; /* Cants arrodonits */
   font-size: 13px !important; /* Mida lleugerament més gran per a millor llegibilitat */
